@@ -1,0 +1,88 @@
+.prices {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3%;
+    box-sizing: border-box;
+}
+
+.card-prices {
+    flex-basis: 30%;
+    padding: 4rem;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 4rem;
+    position: relative;
+    overflow: hidden;
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    text-align: center;
+    transition: all 0.4s;
+}
+
+.card-prices::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../../images/regular-table-top.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+}
+
+.card-prices::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../images/regular-table-bottom.png);
+    z-index: 0;
+    content: '';
+    width: 100%;
+    height: 17rem;
+    z-index: -10;
+
+}
+
+.count-price {
+    align-self: end;
+    font-size: 4rem;
+    color: var(--bs-white);
+    font-weight: bold;
+}
+
+.card-prices h5 {
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.prices-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+    padding: 0;
+}
+
+.prices-item {
+    list-style: none;
+}
+
+.prices-item del {
+    color: var(--bs-gray);
+}
+
+.card-prices:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+
+}

@@ -1,0 +1,209 @@
+@media only screen and (max-width: 75em) {
+    html {
+        font-size: 50%;
+    }
+
+    .bg-img-box {
+        display: none;
+    }
+
+    .services {
+        padding-top: 10rem;
+    }
+
+    .description-wrapper {
+        width: 80%;
+    }
+
+    .description-title {
+        font-size: 4rem;
+        line-height: 7rem;
+    }
+
+    .description-paragraph {
+        font-size: 2rem;
+    }
+
+    .about-titel {
+        font-size: 3rem;
+
+    }
+
+    .about-text {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 62em) {
+
+
+    .description-wrapper {
+        width: 100%;
+    }
+
+    .description-paragraph {
+        width: 60%;
+        margin: 2rem auto;
+    }
+
+
+    .card {
+        flex-basis: 49%;
+        margin-bottom: 2rem;
+    }
+
+
+    .about-left {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .about-right {
+        flex-basis: 100%;
+    }
+
+    .about .u-lines {
+        justify-content: center;
+    }
+
+    .about-text {
+        padding-left: 0;
+    }
+
+    .about .btn {
+        margin: 4rem auto;
+    }
+
+    .comments {
+        justify-content: center;
+    }
+
+    .comments-left {
+        flex-basis: 100%;
+        margin-bottom: 8rem;
+    }
+
+    .comments-right {
+        flex-basis: 60%;
+    }
+
+    .card-prices {
+        flex-basis: 40%;
+    }
+}
+
+
+@media only screen and (max-width: 48em) {
+
+    .u-container {
+        width: 85%;
+    }
+
+    .navbar .navbar-list,
+    .navbar .btn {
+        display: none;
+    }
+
+    .navbar .navbar-menu {
+        display: block;
+    }
+
+    .header-content {
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .header-left-content {
+        width: 80%;
+        align-items: center;
+        margin-bottom: 8rem;
+    }
+
+    .header-title {
+        font-size: 6rem;
+        text-align: center;
+        line-height: 8rem;
+    }
+
+    .u-paragraph {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .header-right-content {
+        width: 80%;
+        align-items: center;
+        margin-top: 4rem;
+    }
+
+    .description-title {
+        font-size: 3rem;
+    }
+
+    .comments-link {
+        font-size: 1.3rem;
+
+    }
+
+    .comment-name {
+        font-size: 1.6rem;
+    }
+
+    .comments-right {
+        flex-basis: 80%;
+    }
+
+    .description-title {
+        line-height: 4rem;
+    }
+}
+
+
+@media only screen and (max-width: 40em) {
+    .u-container {
+        width: 95%;
+    }
+
+    .header-title {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    .u-paragraph {
+        padding: 0;
+    }
+
+    .description-title {
+        font-size: 2rem;
+    }
+
+    .card {
+        flex-basis: 99%;
+    }
+
+    .about-titel {
+        font-size: 2rem;
+    }
+
+    .box {
+        flex-basis: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .comments-right {
+        flex-basis: 90%;
+    }
+
+    .card-prices {
+        flex-basis: 80%;
+    }
+
+    .top-footer{
+        margin-top: 10rem;
+        text-align: center;
+    }
+
+    .top-footer h3{
+        font-size: 1.9rem;
+    }
+}

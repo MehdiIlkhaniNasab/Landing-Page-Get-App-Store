@@ -1,0 +1,47 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    
+}
+
+
+.about-left{
+    flex-basis: 55%;
+}
+
+.about-titel{
+    color: var(--bs-black);
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+.about .u-lines{
+    justify-content: flex-start;
+}
+
+.about-text{
+    color: var(--bs-gray);
+    line-height: 3rem;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+}
+
+.about .btn {
+    margin-top: 4rem;
+}
+
+.about-right{
+    flex-basis: 45%;
+    background-image: url(../../images/about-bg.jpg);
+}
+
+.about-right img{
+    width: 100%;
+    height: 100%;
+    display: block;
+
+}

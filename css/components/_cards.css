@@ -1,0 +1,97 @@
+.cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1%;
+    margin: 10rem 0;
+}
+
+.card{
+    flex-basis: 24%;
+    padding: 4rem 2rem;
+    text-align: right;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    transition: all 0.4s;
+}
+
+.card:hover{
+    background-image: url(../../images/service-bg.jpg);
+    background-position: bottom;
+}
+
+.card-icon{
+    background-size: cover;
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 2rem ;
+}
+
+.card-1{
+    background-image: url(../../images/service-icon-01.png);
+}
+.card:hover .card-1{
+    background-image: url(../../images/service-icon-hover-01.png);
+}
+
+.card-2{
+    background-image: url(../../images/service-icon-02.png);
+}
+.card:hover .card-2{
+    background-image: url(../../images/service-icon-hover-02.png);
+}
+
+.card-3{
+    background-image: url(../../images/service-icon-03.png);
+
+}
+.card:hover .card-3{
+    background-image: url(../../images/service-icon-hover-03.png);
+}
+
+.card-4{
+    background-image: url(../../images/service-icon-04.png);
+}
+.card:hover .card-4{
+    background-image: url(../../images/service-icon-hover-04.png);
+}
+
+.card-title{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.card-desc{
+    font-size: 1.5rem;
+    color: var(--bs-gray);
+    line-height: 3rem;
+}
+
+.card-link{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.card .icon{
+    width: 1.4rem;
+    height: 1.4rem;
+    fill: currentColor;
+   transform:  rotate(180deg);
+   transition: all 0.4s;
+}
+
+.card:hover .card-title,
+.card:hover .card-desc,
+.card:hover .card-link{
+    color: var(--bs-white);
+}
+
+.card:hover .card-link .icon{
+    margin-right: 0.5rem;
+}

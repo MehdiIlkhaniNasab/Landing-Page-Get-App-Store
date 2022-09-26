@@ -1,0 +1,64 @@
+.btn {
+    padding: 1.5rem 3rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: var(--bs-white);
+    transition: all 0.4s;
+}
+
+.btn-gradient {
+    background: linear-gradient(105deg, rgba(91, 104, 235, 1) 0%, rgba(40, 225, 253, 1) 100%);
+    color: var(--bs-white);
+}
+
+.btns {
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+}
+
+.btn .icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-right: 1rem;
+    fill:  currentColor;
+}
+
+.btn-ice {
+    background-color: var(--bs-cyan);
+}
+.btn-green {
+    background-color: var(--bs-green);
+}
+.btn:hover{
+   filter: brightness(70%);
+   padding: 1.5rem 4rem;
+}
+
+
+.btn-white{
+    border: 1px solid var(--bs-blue);
+    background-color: var(--bs-white);
+    color: var(--bs-blue);
+}
+
+.btn-white:hover{
+    background-color: var(--bs-blue);
+    color: var(--bs-white);
+    filter: none;
+}
+
+.btn-transparent{
+    background-color: transparent;
+    border: 1px solid var(--bs-white);
+}
+
+.btn-transparent:hover{
+    background-color: var(--bs-white);
+    color: var(--bs-blue);
+    filter: none;
+}
